@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Our Jasmine Test Runner</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="./node_modules/jasmine-core/lib/jasmine-core/jasmine.css">
+	</head>
+	<body>
+		<script src="./node_modules/jasmine-core/lib/jasmine-core/jasmine.js"></script>
+		<script src="./node_modules/jasmine-core/lib/jasmine-core/jasmine-html.js"></script>
+		<script src="./node_modules/jasmine-core/lib/jasmine-core/boot.js"></script>
+
+		<script>
+			describe('1. Chapter 2 tests OK', () => { 
+				it('1.1| Jasmine OK test TRUE=TRUE', () => {
+					expect(true).toBe(true); 
+				});
+				it('1.2| 2 + 2 equals 4', () => {
+					expect(2 + 2).toBe(4);
+				});
+				it('1.3| 3 * 7 equals 21', () => {
+					expect(3 * 7).toBe(21);
+				});
+			});
+
+			describe('2. Chapter 2 tests NOT OK', () => { 
+				it('2.1| Jasmine NOT OK test FALSE=TRUE', () => {
+					expect(false).toBe(true); 
+				});
+				it('2.2| 2 + 2 equals 5', () => {
+					expect(2 + 2).toBe(5);
+				});
+				it('2.3| 13 -7 equals 7', () => {
+					expect(13 - 7).toBe(7);
+				});
+			});
+
+		</script>
+	</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "angular2_tests-jasmine",
+  "version": "1.0.0",
+  "description": "Angular2_TESTS-Jasmine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "StanLi",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine-core": "^2.5.2"
+  }
+}
