@@ -14,6 +14,10 @@ Upgraders: for a fresh start, consider running these commands
 # @TODO
 * add some more jasmine tests
 
+<a name="1.1.0"></a>
+# 1.1.0 (2017-01-13)
+* redesign test-runner tests scripts according to categories
+
 <a name="1.0.1"></a>
 # 1.0.1 (2017-01-13)
 * communication git - github verified
