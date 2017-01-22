@@ -1,5 +1,6 @@
-## Angular Documentation Readme
-Upgraders: for a fresh start, consider running these commands 
+## JASMINE-CORE in Html-runner.html
+
+## START
 * `git clean -xdf` 
 * `npm install` or `npm i`
 
